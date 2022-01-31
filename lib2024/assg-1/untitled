@@ -5,7 +5,7 @@
 	<html lang='en ca'>
 <head>
 	<meta charset="utf-8">
-	<title>LIB2024-Assignment1</title>
+	<title>LIB2024-Assignment1</title> <!--here's the title-->
 </head>
 
 <body>
@@ -17,12 +17,15 @@
 <main>
 	<h2>This is the main Section</h2> 
 
+	<!--Here's a comment about my main section-->
+
 	<div> 
 		I am a div
 	</div>
 
 	<p>I am a paragraph</p>
-	<p>This paragraph has a<br>break</p>
+	<!--comments about my paragraph-->
+	<p>This paragraph has a<br>break</p> 
 
 	<section>
 		<header>
@@ -32,26 +35,29 @@
 
 		<footer>
 			<p>This is a less important part of the section</p>
+			<!--little not as important part-->
 		</footer>
 	</section>
 
 	<div>
 		<h4>Some links in a Div</h4>
 		<a href='http://google.com'title='Google Search'>Google Link</a> <a href='http://amazon.ca'title='Amazon'>Amazon Link</a>
+		<!--I wish Amazon was a more ethical company-->
 	</div>
 
 	<div>
 		<h5>Some lists in a Div</h5>
 		<nav>
 			<ul>
-				<li>Unordered Element 1</li>
-				<li>Unordered Element 2</li>
-				<li>Unordered Element 3</li>
+				<li>Unordered List Element 1</li>
+				<li>Unordered List Element 2</li>
+				<!--This is a comment in my list-->
+				<li>Unordered List Element 3</li>
 			</ul>
 			<ol>
-				<li>Ordered Element 1</li>
-				<li>Ordered Element 2</li>
-				<li>Ordered Element 3</li>
+				<li>Ordered List Element 1</li>
+				<li>Ordered List Element 2</li>
+				<li>Ordered List Element 3</li>
 			</ol>
 		</nav>
 	</div>
@@ -59,5 +65,7 @@
 </main>
 
 <footer>This is the footer</footer>
+<!--some comments below my footer-->
 
 </html>
+
