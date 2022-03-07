@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--head starting here-->
+	<title>Assignment 3</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Assignment 3">
+	<meta name="keywords" content="HTML, HTML 5, advanced HTML, special tags">
+	<meta name="robots" content="noindex nofollow">
+	<meta name="Author" content="Adam Philyaw">
+	<!--make sure my meta tags are good-->
+</head>
+<!--make 5 fields are required -->
+<body>
+	<header id="header">
+		<h1>Assignment 3</h1>
+		<!--I added a header because I figured it was important -->
+	</header>
+	<main id="main">
+		<div id="wrapper" class="wrapper">
+			<section id="html-forms" class="main-section">
+				<form action="somepage.php" method="get">
+					<div id="fn-container" class="form-elm">
+						<!-- adding my first label here to make first name box-->
+						<label for="FirstName">First name</label>
+						<input type="text" name="FirstName" id="FirstName" placeholder="First name goes here" required="">
+					</div>
+					<div id="ln-container" class="form-elm">
+						<!--second label for last name-->
+						<label for="LastName">Last name</label>
+						<input type="text" name="LastName" id="LastName" placeholder="Last name goes here" required="">
+					</div>
+					<div id="email-container" class="form-elm">
+						<!--getting everyone's emails here-->
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email" placeholder="enter email here, promise no spam">
+					</div>
+					<div id="pass-container" class="form-elm">
+						<label for="pass">Password</label>
+						<input type="password" name="pass" id="pass" required>
+						<!-- required to make sure submission can't hapen unless this field is filled -->
+					</div>
+					<div id="sum-container" class="form-elm">
+						<label for="summary">Summary</label>
+						<!--here's my text area -->
+						<textarea name="summary" id="summary" placeholder="How are you doing?">
+						</textarea>
+					</div>
+					<!--adding bday, mobile, gender, address, city-->
+					<div id="st-container" class="form-elm">
+						<label for="dte">Date of birth</label>
+						<input type="date" name="dte" id="dte" required=""><br>
+						<label for="num">Mobile number</label>
+						<input type="number" id="num" name="num" required="">
+							<!-- not including min and max for phone numbers to allow users to format as they want to -->
+					</div>
+					<div id="radio-container" class="form-elm">
+						<!--I've attempted to make this gender field more inclusive -->
+						<p>Please select your gender</p>
+						<label for="female">
+							<input type="radio" name="gender-form" id="female" value="female" checked>
+							Female
+						</label>
+						<label for="male">
+							<input type="radio" name="gender-form" id="male" value="male">
+							Male
+						</label>
+						<label for="non-binary">
+							<input type="radio" name="gender-form" id="non-binary" value="non-binary">
+							Non-binary
+						</label>
+						<label for="transgender">
+							<input type="radio" name="gender-form" id="transgender" value="transgender">
+							Transgender
+						</label>
+						<label for="gender-nonconforming">
+							<input type="radio" name="gender-form" id="gender-nonconforming" value="gender-nonconforming">
+							Gender non-conforming
+						</label> <br>
+						<label for="genderqueer">
+							<input type="radio" name="gender-form" id="genderqueer" value="genderqueer">
+							Genderqueer
+						</label>
+						<label for="intersex">
+							<input type="radio" name="gender-form" id="intersex" value="intersex">
+							Intersex
+						</label>
+						<label for="prefer-notstated">
+							<input type="radio" name="gender-form" id="prefer-notstated" value="prefer-notstated">
+							Prefer not to state
+						</label>
+						<label for="other">
+							<input type="radio" name="gender-form" id="other" value="other">
+							Other
+						</label>
+					</div>
+					<div id="add-container" class="form-elm">
+						<!--address text here-->
+						<label for="Address">Address</label>
+						<input type="text" name="Address" id="Address" placeholder="Enter street address here">
+					</div>
+					<div id="city-container" class="form-elm">
+						<!--city field here-->
+						<label for="City">City</label>
+						<input type="text" name="City" id="City" placeholder="Enter city here">
+					</div>
+					<div id="province-dropdown-container" class="form-elm">
+						<label for="province">Province:</label>
+						<select name="province" id="province">
+							<option value="Ontario" selected>Ontario</option>
+							<option value="Quebec">Quebec</option>
+							<option value="Nova Scotia">Nova Scotia</option>
+							<option value="New Brunswick">New Brunswick</option>
+							<option value="Manitoba">Manitoba</option>
+							<option value="British Columbia">British Columbia</option>
+							<option value="Prince Edward Island">Prince Edward Island</option>
+							<option value="Saskatchewan">Saskatchewan</option>
+							<option value="Alberta">Alberta</option>
+							<option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+							<option value="Other">Other</option>
+						</select>
+					</div>
+					<div id="country-dropdown-container" class="form-elm">
+						<label for="country">Country</label>
+						<select name="country" id="country">
+							<option value="canada" selected>Canada</option>
+							<!-- Canada is the default selected choice shown first -->
+							<option value="usa">United States of America</option>
+							<option value="france">France</option>
+							<option value="somewhere-else">Somewhere else</option>
+						</select>
+					</div>
+					<div id="postal-container" class="form-elm">
+						<label for="PostalCode">Postal code</label>
+						<input type="text" name="PostalCode" id="PostalCode" placeholder="enter postal code here">
+						<!--placeholder shows user where to enter their postal code on the form -->
+					</div>
+					<div id="hobbies-container" class="form-elm">
+						<h4>Hobbies/interests</h4>
+						<label for="circus">Circus</label>
+							<input type="checkbox" name="hobbies" id="circus" value="circus"> <br>
+						<!--adding br tags to stack all the hobby check boxes -->
+						<label for="coffee">Coffee</label>
+							<input type="checkbox" name="hobbies" id="coffee" value="coffee"> <br>
+						<label for="sleep">Sleep</label>
+							<input type="checkbox" name="hobbies" id="sleep" value="sleep"> <br>
+							<!--okay one last hobby/interest -->
+						<label for="anti-capitalism">Anti-capitalism</label>
+							<input type="checkbox" name="hobbies" id="anti-capitalism" value="anti-capitalism">
+					</div>
+					<div id="url-container" class="form-elm">
+						<!-- here's my url spot -->
+						<label for="url">Enter a URL</label>
+						<input type="url" name="url" id="url" placeholder="your website here">
+					</div>
+					<!--adding my buttons below-->
+					<button type="submit">Submit</button>
+					<button type="reset">Reset</button>
+				</form>
+			</section>
+		</div>
+	</main>
+	<footer>
+		<!-- here's my footer - if I have indentation issues can you highlight them in the code for me? Thank you -->
+	</footer>
+</body>
+</html>
