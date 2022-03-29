@@ -1,5 +1,7 @@
 @charset 
+/*i get an error for charset and i don't know ehy. I don't understand how valid css is suposed to work */
 utf-8
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -152,13 +154,9 @@ table {
 }
 @media only screen and (min-width: 768px) {
 	
-	/*header styles*/
-
-	/*the following css is used to restrict the content beyond 1280px*/
-	/*This is to make sure the main content is in the readbable area for large screen sizes*/
 	header, main, footer {
 
-		max-width: 1280px;
+		max-width: 960px;
 		margin: 0 auto;
 
 	}
@@ -202,19 +200,13 @@ table {
 
 	.col-footer {
 		width: 100%;
-		/*total width = 31% + 1%(left margin) + 1% (right margin) */
 		box-sizing: border-box;
-		/*border box adjusts the width according to the padding only and does not consider margins*/
-		/*Therefore the space used by margins should be manually adjusted in the width declaration*/
 		margin: 10px;
 		padding: 10px;
 		background-color: lightgreen;	
 }
 
-/*Desktop First Media Query*/
-/* this is in case you have a lot of complex styles for desktop and do not want to change the styles for desktop layout*/
-/*These media queries will target the screen sizes for smaller devices*/
-/*The following media query targets the screen sizes that are less than 768px*/
+
 @media only screen and (max-width: 768px) 
 	footer {
 }
