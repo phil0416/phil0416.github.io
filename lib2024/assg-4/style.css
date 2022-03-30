@@ -152,7 +152,6 @@ table {
 }
 @media only screen and (min-width: 768px) {
 	
-
 	header, main, footer {
 
 		max-width: 960px;
@@ -204,6 +203,7 @@ table {
 		padding: 10px;
 		background-color: lightgreen;	
 }
+
 
 @media only screen and (max-width: 768px) 
 	footer {
