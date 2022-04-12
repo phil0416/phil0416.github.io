@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+	<title>LIB2024 - QA</title>
+	<!--meta tags below for SEO -->
+	<meta charset="utf-8">
+	<meta name="description" content="Final QA">
+	<meta name="keywords" content="HTML, HTML 5, advanced HTML, CSS, QA">
+	<meta name="robots" content="noindex nofollow">
+	<meta name="Author" content="Adam Philyaw">
+</head>
+<body>
+	<h1>LIB2024- QA</h1>
+	<!-- Qus/Ans list begins -->
+	<ol>
+		<!-- Qus 1 -->
+		<li>
+			<p>
+				<strong>Qus: 1</strong>
+				What are the three componets of Web?
+			</p>
+			<p>
+				<strong>Ans: </strong>
+				HTML, CSS, JavaScript
+		</p>
+		</li>
+		<!-- Qus 2 -->
+		<li>
+			<p>
+				<strong>Qus: 2</strong>
+				Define version control and give one example.
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				Version control saves and shows the changes to one or more files. Version control allows you to view any previous versions. GitHub is an example of version control software that I can use to see the first version of something I pushed.
+			</p>
+		</li>
+		<!-- Qus 3 -->
+		<li>
+			<p>
+				<strong>Qus: 3</strong>
+				What tag is used to create the title of a web page? Give an example.			
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				A &lt;title&gt; tag is used inside the &lt;head&gt; element. I hid my example. 
+				<!--<title>Title tag example</title>-->
+			</p>
+		</li>
+		<!-- Qus 4 -->
+		<li>
+			<p>
+				<strong>Qus: 4</strong>
+				What tag is used to create a paragraph in html? Give an example.		
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				A &lt;p&gt; tag is used to create a paragraph. I hid my example. 
+				<!--<p>My paragraph that I wanted in my HTML</p>-->
+			</p>
+		</li>
+		<!-- Qus 5 -->
+		<li>
+			<p>
+				<strong>Qus: 5</strong>
+				Identify the odd one from these tags: &lt;span&gt;, &lt;p&gt;, &lt;a&gt;, &lt;i&gt;  and state the reason?							
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				&lt;p&gt; because it's a block-level element and the other tags are inline elements.
+			</p>
+		</li>
+		<!-- Qus 6 -->
+		<li>
+			<p>
+				<strong>Qus: 6</strong>
+				What are the tags required to create a navigation list in HTML? 							
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				&lt;nav&gt;, &lt;ul&gt;, and &lt;li&gt; tags are needed to create a navigation list. I hid an example.
+				<!-- <nav>
+						<ul>
+							<li>
+								<a href="https://www.adamphilyaw.com/">Link 1</a>
+							</li>
+						</ul>
+					</nav> -->
+			</p>
+		</li>
+		<!-- Qus 7 -->
+		<li>
+			<p>
+				<strong>Qus: 7</strong>
+				What element is used to create images? Name its attributes.							
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				&lt;img&gt; tag is used to create images. &lt;img&gt; tag attributes are src, width, height, and alt. Must have alt attribute for valid HTML 			
+			</p>
+		</li>
+		<!-- Qus 8 -->
+		<li>
+			<p>
+				<strong>Qus: 8</strong>
+				Identify the odd one from these tags: &lt;table&gt;, &lt;tr&gt;, &lt;b&gt;, &lt;td&gt;  and state the reason
+				<!-- put above in comment if it breaks code -->	
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				&lt;b&gt; tag is the odd tag out. &lt;table&gt;, &lt;tr&gt;, and &lt;td&gt; tags are all used in table creation. b tag is just a basic tag to specify bold text.
+			</p>
+		</li>
+		<!-- Qus 9 -->
+		<li>
+			<p>
+				<strong>Qus: 9</strong>
+				Give an example of color picker input.
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				color: rgb(81, 65, 128)
+						or
+				color: #6afbcb;
+			</p>
+		</li>
+		<!-- Qus 10 -->
+		<li>
+			<p>
+				<strong>Qus: 10</strong>
+				What is the use of name and value attributes? Give two examples 		
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				The name value attribute specifies the name and it can help reference an element in javascript.
+				For example, if I click a button on a form - the name attribute of the button is listed with the received user input on the form. 
+				The value attribute represents the value of an element.
+				For example if I click a button on a form - the value of that button determines the input received on the form.
+				<!-- a 3rd example would be: <button name="pie" type="submit" value="pecan">Pecan</button>
+					- the above would show: pie=pecan for user input -->
+			</p>
+		</li>
+		<!-- Qus 11 -->
+		<li>
+			<p>
+				<strong>Qus: 11</strong>
+				Give an example of inline style. 
+			</p>
+			<p style="color:red">
+				<strong>Ans:</strong>
+				I used the style attribute in my &lt;p&gt; tag to do inline style to change the color for this answer. I also hid an example.
+				<!-- Example of inline style: <p style="color:blue;font-size:15px;">
+				-->
+			</p>
+		</li>
+		<!-- Qus 12 -->
+		<li>
+			<p>
+				<strong>Qus: 12</strong>
+				How would you link an external style sheet? Give example.  
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				I would put the following in my &lt;head&gt; tag <br>
+				&lt;link rel="stylesheet" href="styles.css"&gt;
+			</p>
+		</li>
+		<!-- Qus 13 -->
+		<li>
+			<p>
+				<strong>Qus: 13</strong>
+				Create CSS block to center an element both horizontally and vertically that has position:absolute and has width:200px and height:200px.			
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				A mockup of the element being centered by this CSS block is hidden in the comments. <br>
+				&lt;style&gt;
+				div.css-block
+					display: block {
+					background-color: green;
+					margin: 0;
+					position: absolute;
+					width: 200px;
+  					height: 200px;
+  					top: 50%;
+  					left: 50%;
+  					margin-right: -50%;
+  					transform: translate(-50% -50%)
+  					}
+  				&lt;/style&gt;
+
+  				<!-- my comment has the element my CSS is styling here: 
+  					<div class="css-block">
+						A block of CSS
+					</div>
+				-->
+			</p>
+		</li>
+		<!-- Qus 14 -->
+		<li>
+			<p>
+				<strong>Qus: 14</strong>
+				Create CSS keyframes block called "spin" that rotates an element. 			
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				@keyframes spin {
+				animation: infiniterotate
+				}
+			</p>
+		</li>
+		<!-- Qus 15 -->
+		<li>
+			<p>
+				<strong>Qus: 15</strong>
+				Create CSS animation block to rotate an element that has the following properties :
+
+	   			 class "rotate-me"
+	   			 It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin" 			
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				I'm honestly so lost here
+			</p>
+		</li>
+		<!-- Qus 16 -->
+		<li>
+			<p>
+				<strong>Qus: 16</strong>
+				How would you include create an alert with string "I love JavaScript" using JavaScript?			
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				function myalert()	{
+				alert("I love JavaScript");
+				}
+			</p>
+		</li>
+		<!-- Qus 17 -->
+		<li>
+			<p>
+				<strong>Qus: 17</strong>
+				How would you fade out an element with id "fade-me" after a delay of 300ms using JQuery?			
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				$("fade-me").delay("300").fadeOut();
+			</p>
+		</li>
+		<!-- Qus 18 -->
+		<li>
+			<p>
+				<strong>Qus: 18</strong>
+				How would you select all elements with class "my-class" using Javascript and Jquery? 			
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				$(".my-class")
+			</p>
+		</li>
+		<!-- Qus 19 -->
+		<li>
+			<p>
+				<strong>Qus: 19</strong>
+				Give an example of input field that takes phone number with format "123-456-7890"? 			
+			</p>
+			<p>
+				<strong>Ans:</strong>
+					function phonenumber(inputtxt)
+					{
+  						var phoneno = /^\(?([0-9]{3})\)?[-]?([0-9]{3})[-]?([0-9]{4})$/;
+  						if((inputtxt.value.match(phoneno))
+    			    {
+   				   return true;
+   				     }
+   				   else
+   				     {
+    			    alert("message");
+    			    return false;
+    			    }
+				}
+			<!--Sorry this answer is basically a mess but I think this would be correct, I didn't get a chance to ask --> 
+			</p>
+		</li>
+		<!-- Qus 20 -->
+		<li>
+			<p>
+				<strong>Qus: 20</strong>
+				Among HTML, CSS, Javascript, JQuery, what language did you like the best? State the reason. 			
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				I like HTML because I understand it and feel like it's the most helpful language for me to know and use.
+			</p>
+		</li>
+  	</ol>
+</body>
+<footer>
+	<!--struggled through by Adam Philyaw -->
+</footer>
+</html>
