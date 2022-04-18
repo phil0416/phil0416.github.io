@@ -10,6 +10,7 @@
 		<meta name="Author" content="Adam Philyaw">
 		<!-- CSS links et al -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="scripts.js"></script>
 		<!--google font link hopefully -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -112,7 +113,8 @@
 						<div id="province-dropdown-container" class="form-elm">
 							<label for="province">Province:</label>
 							<select name="province" id="province" required="">
-								<option value="ON" selected>Ontario</option>
+								<option value="" selected>select</option>
+								<option value="ON">Ontario</option>
 								<option value="QC">Quebec</option>
 								<option value="NS">Nova Scotia</option>
 								<option value="NB">New Brunswick</option>
@@ -133,7 +135,7 @@
 							<input type="text" name="postalcode" id="postalcode" placeholder="Your postal code here here" required="">
 						</div>
 						<!--adding submit button below -->
-						<button type="submit" class="submit-butt">Submit</button>
+						<button type="submit" onclick="firstFunction()" class="submit-butt">Submit</button>
 				</form>
 			</div>
 			<h2 class="profile-h">Profile Info</h2>

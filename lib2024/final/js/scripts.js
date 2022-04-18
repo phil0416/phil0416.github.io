@@ -1,7 +1,9 @@
 //this is where I would put my javascript
 
 //here too
-alert("Welcome");
+function firstFunction() {
+    alert("Thank you");
+}
 
 //also here
 
