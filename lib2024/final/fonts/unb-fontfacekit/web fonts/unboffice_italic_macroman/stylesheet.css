@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'unb_officeitalic';
+    src: url('unb-office_italic-webfont.eot');
+    src: url('unb-office_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('unb-office_italic-webfont.woff2') format('woff2'),
+         url('unb-office_italic-webfont.woff') format('woff'),
+         url('unb-office_italic-webfont.ttf') format('truetype'),
+         url('unb-office_italic-webfont.svg#unb_officeitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
