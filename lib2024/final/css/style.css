@@ -99,15 +99,13 @@ body {
 }
 
 footer {
-	color: grey;
 	display: block;
-	background-color: grey;
+	background-color: #454545;
 }
 
 .foot-container {
 	display: inline-block;
 	color: white;
-	background-color: grey;
 	width: 100%;
 }
 
