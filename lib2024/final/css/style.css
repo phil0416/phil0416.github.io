@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+/*hope all this works
+*/
+
+/*font stuff */
+
+@font-face{ 
+	font-family: 'unboffice_bold_macroman';
+	src: url('unboffice_bold_macroman-WebFont.eot');
+	src: url('unboffice_bold_macroman-WebFont.eot?iefix') format('eot'),
+	     url('unboffice_bold_macroman-WebFont.woff') format('woff'),
+	     url('unboffice_bold_macroman-WebFont.ttf') format('truetype'),
+	     url('unboffice_bold_macroman-WebFont.svg#webfont') format('svg');
+}
+
+.logo {
+	font-family: 'unboffice_bold_macroman';
+	size: auto;
+	font-weight: : normal;
+}
+h1, h4 {
+	color: lightblue;
+}
+
+.desktop-nav {
+	background-color: lightblue;
+	list-style-type: none;
+	text-align: left;
+	margin: 0;
+  	padding: 0;
+}
+
+.desktop-nav li {
+  display: inline-block;
+  font-size: 16px;
+  padding: 16px;
+}
+
+body {
+	background-image: url(../img/dynamic-style.webp);
+}
+
+.about-content p {
+	width: 60%;
+}
+
+.about-content figure {
+	width: 33%;
+	float: right;
+}
+
+h2 {
+	color: lightblue;
+}
+
+.main-table {
+	border-collapse: collapse;
+ 	width: 100%;
+}
+
+.main-table td, .main-table th {
+	border: 1px solid #ddd;
+ 	padding: 8px;
+}
+
+.main-table tr:nth-child(even){background-color: #f2f2f2;}
+
+.main-table tr:hover {background-color: #ddd;}
+
+.main-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: white;
+  color: lightblue;
+}
+
+
+.card {
+	width: 30%;
+	float: right;
+}
+
+footer {
+	color: grey;
+	display: block;
+	background-color: grey;
+}
+
+.foot-container {
+	display: block;
+	color: white;
+	background-color: grey;
+	width: 100%;
+}
+
+.sm {
+	padding: 10px;
+	font-size: 25px;
+	width: 25px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+}
+
+.foot-address-container {
+
+}

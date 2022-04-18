@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Final</title>
+		<!-- here are my meta tags -->
+		<meta charset="utf-8">
+		<meta name="description" content="Final">
+		<meta name="keywords" content="HTML, HTML 5, advanced HTML, CSS, JavaScript">
+		<meta name="robots" content="noindex nofollow">
+		<meta name="Author" content="Adam Philyaw">
+		<!-- CSS links et al -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<header>
+		<h1 class="logo" id="logo">My Logo</h1>
+		<nav class="main-nav-container desktop-nav clearfix">
+			<ul class="desktop-nav clearfix">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="schedule">Schedule</a></li>	
+				<li><a href="portfolio">Portfolio</a></li>
+				<li><a href="contact">Contact</a></li>
+				<!-- just praying honestly //bootstrap!!!-->
+			</ul>
+		</nav>
+		<!-- h1 and horizontal nav-->
+	</header>
+	<main class="main clearfix" id="main">
+		<section class="col-main site-content">
+			<article class="about-content">
+				<h2>About</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci nulla. Quisque faucibus eros diam, non pulvinar nibh scelerisque vitae. Nunc ut ipsum ut justo vulputate condimentum. Phasellus ac nunc elit. In faucibus diam quis libero papibus, pellentesque varius sapien porttitor. Maecenas congue lacus id turpis dictum amollis. Ut auctor porta vestibulum. Maecenas condimentum dui varius euismod posuere. Sed convallis, magna id ullamcorper eleifend, dolor metus placerat velit, et auctor sisi magna sit amet erat. Nullam feugiat rutrum sem eget fermentum. Praesent sed melerisque lacus, ac hendrerit risus. Suspendisse potenti. Donec tristique vitae justo eh aliquet. Cras vitae velit nec velit auctor ultrices.<br><br>
+					<!--just a buncha nonsense-->
+				Donec erat libero, imperdiet ut dui nec, mollis hendrerit purus. Aliquam venenatis pretium dolor et pharetra. Donec eleifend dui lobortis nisi vehicula, vitae rutrum turpis molestie. In hac habitasse platea dictumst. Curabitur hendrerit dui eu erat interdum, in sodales velit convallis. Vivamus eu dui eros. Aenean in ligula hendrerit nibh vehicula dignissim id et ante. </p>
+				<figure>
+					<img src="img/bridge.png" alt="bridge" height="235" width="330">
+				</figure>
+				<!--picture of bridge going here-->
+			</article>
+		</section>
+		<!--adding my table below-->
+		<section class="table-container clearfix" id="main-table-container">
+			<h2>Schedule</h2>
+			<table class="main-table clearfix" id="main-table">
+				<tr>
+					<th>Time</th>
+					<th>Monday</th>
+					<th>Tuesday</th>
+					<th>Wednesday</th>
+					<th>Thursday</th>
+					<th>Friday</th>
+				</tr>
+				<tr>
+					<td>09:00 - 11:00</td>
+					<td>Communications I</td>
+					<td>Client Services</td>
+					<td>Special Collections</td>
+					<td>Directed Reasearch Seminar</td>
+					<td>Client Services</td>
+				</tr>
+				<tr>
+					<td>11:00 - 12:30</td>
+					<td>Reference</td>
+					<td>Internet App</td>
+					<td>Library Software</td>
+					<td>French</td>
+					<td>Reference</td>
+				</tr>
+				<tr>
+					<td>14:00 - 15:00</td>
+					<td>Acquisitions</td>
+					<td>General Elective</td>
+					<td>Marketing</td>
+					<td>Emerging Library Tech</td>
+					<td>Library Software</td>
+				</tr>
+				<tr>
+					<td>15:30 - 17:30</td>
+					<td>French</td>
+					<td>French</td>
+					<td>Acquisitions</td>
+					<td>Subject Analysis</td>
+					<td>Internet App</td>
+				</tr>
+			</table>
+		</section>
+		<section class="main-profile">
+			<div class="main-profile" id="main-profile">
+				<h2>Edit Profile</h2>
+				<form action="somepage.php" method="get">
+						<div id="n-container" class="form-elm">
+							<!-- adding my first label here to make name box-->
+							<label for="name">Name:</label>
+							<input type="text" name="Name" id="name" placeholder="Your name here" required="">
+						</div>
+						<div id="email-container" class="form-elm">
+							<label for="email">Email:</label>
+							<input type="email" name="email" id="email" placeholder="Your email here" required="">
+						</div>
+						<div id="add-container" class="form-elm">
+							<label for="Address">Address</label>
+							<input type="text" name="Address" id="Address" placeholder="Your address here" required="">
+						</div>
+						<div id="city-container" class="form-elm">
+							<label for="City">City</label>
+							<input type="text" name="City" id="City" placeholder="Your city here" required="">
+						</div>
+						<div id="province-dropdown-container" class="form-elm">
+							<label for="province">Province:</label>
+							<select name="province" id="province">
+								<option value="ON" selected>Ontario</option>
+								<option value="QC">Quebec</option>
+								<option value="NS">Nova Scotia</option>
+								<option value="NB">New Brunswick</option>
+								<option value="MB">Manitoba</option>
+								<option value="BC">British Columbia</option>
+								<option value="PE">Prince Edward Island</option>
+								<option value="SK">Saskatchewan</option>
+								<option value="NL">Newfoundland and Labrador</option>
+								<option value="AB">Alberta</option>
+								<option value="YT">Yukon</option>
+								<option value="NU">Nunavut</option>
+								<option value="NT">Northwest Territories</option>
+								<option value="Other">Other</option>
+							</select>
+						</div>
+						<div id="postal-container" class="form-elm">
+							<label for="PostalCode">Postal code</label>
+							<input type="text" name="PostalCode" id="PostalCode" placeholder="Your postal code here here" required="">
+						</div>
+						<!--adding submit button below -->
+						<button type="submit" class="submit-butt">Submit</button>
+				</form>
+			</div>
+			<div class="card">
+				<img src="img.jpg" alt="John" style="width:100%">
+				<h2>Profile Info</h2>
+				<p class="title">
+					<h4>John Doe</h4>
+					JohnDoe@algonquincollege.com<br>
+					1385 Woodroffe Ave,<br>
+					Nepean, ON K2G 1V8
+				<a href="#"><i class="fa fa-dribbble"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<p><button>Contact</button></p>
+			</div>
+		</section>
+	</main>
+	<footer class="foot-container" id="foot-container">
+		<nav class="footer-nav">
+			<h5>Quick links</h5>
+			<ul class="foot-nav clearfix">
+				<li><a href="html_schedule.asp">Schedule</a></li>
+				<li><a href="about.html">About</a></li>	
+				<li><a href="portfolio">Portfolio</a></li>
+				<li><a href="contact">Contact</a></li>
+				<!-- just praying honestly //bootstrap!!!-->
+			</ul>
+		</nav>
+		<div class="social-media-container">
+			<h5>Follow Us</h5>
+			<ul>
+				<li>
+					<a href="www.facebook.com" class="sm fb-social">
+						<img src="img/facebook.png" alt="facebook">
+					</a>
+					<a href="www.youtube.com" class="sm yt-social">
+						<img src="img/youtube.png" alt="youtube">
+					</a>
+					<a href="www.twitter.com" class="sm tw-social">
+						<img src="img/twitter.png" alt="twitter">
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="foot-address-container">
+			<!-- addy goes here --> 
+			<h5 class="foot-add">Address</h5>
+			<p>
+				1385 Woodroffe Ave,<br>
+				Nepean, ON K2G 1V8<br>
+				Canada
+			</p>
+		</div>
+	</footer>
+</html>
+
