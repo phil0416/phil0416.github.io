@@ -2,7 +2,7 @@
 
 /*hope all this works - i tried the reset and it made too much of a mess so I left it out 
 */
-
+@media screen and (min-width: 768px)  { }
 /*font stuff */
 
 @font-face{ 
@@ -17,10 +17,13 @@
 .logo {
 	font-family: 'unboffice_bold_macroman';
 	font-size: 60px;
+	font-weight: 100;
 }
 
 .about-content {
     font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 1;
 }
 
 h1, h2, h4 {

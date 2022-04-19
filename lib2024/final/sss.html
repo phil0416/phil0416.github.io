@@ -2,6 +2,11 @@
 <html lang="en">
 <head>
 	<title>sss</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Final">
+	<meta name="keywords" content="HTML, HTML 5, advanced HTML, CSS, JavaScript">
+	<meta name="robots" content="noindex nofollow">
+	<meta name="Author" content="Adam Philyaw">
 </head>
 <h1>Simple Style Schema</h1>
 
@@ -45,8 +50,8 @@ URLs:
 <h2>Images</h2>
 <img src="img/bridge.png" alt="bridge" height="235" width="330">
 <img src="img/pexels-maya-de-smet-10153806.jpeg" alt="doe" width="135" height="135" class="profile">
-
-<table class="dimensions-table" id="main-table">
+<h2>Dimensions</h2>
+<table class="dimensions-table" id="dim-table">
 	<tr>
 		<th>element</th>
 		<th>width</th>
@@ -54,26 +59,44 @@ URLs:
 		<th>parent</th>
 	</tr>
 	<tr>
+		<td>page</td>
+		<td>100%</td>
+		<td>#auto</td>
+		<td>N/A</td>
+	</tr>
+	<tr>
 		<td>header</td>
-		<td>Header nav bar</td>
-		<td>#72a9ae</td>
-		<td>114,169,174</td>
+		<td>100%</td>
+		<td>n/a</td>
+		<td>page</td>
 	</tr>
 	<tr>
-		<td>lightblue</td>
-		<td>h1, h4</td>
-		<td>#72a9ae</td>
-		<td>114,169,174</td>
+		<td>main</td>
+		<td>100%</td>
+		<td>auto</td>
+		<td>page</td>
 	</tr>
 	<tr>
-		<td>dark grey</td>
+		<td>article</td>
+		<td>60%</td>
+		<td>auto</td>
+		<td>main</td>
+	</tr>
+	<tr>
 		<td>footer</td>
-		<td>#454545</td>
-		<td>69, 69, 69</td>
+		<td>100%</td>
+		<td>auto</td>
+		<td>page</td>
+	</tr>
+	<tr>
+		<td>image</td>
+		<td>100%</td>
+		<td>auto</td>
+		<td>page</td>
 	</tr>
 </table>
-
-<table class="main-table clearfix" id="main-table">
+<h2>Colors</h2>
+<table class="main-table clearfix" id="color-table">
 	<tr>
 		<th>Color</th>
 		<th>Used for</th>
@@ -97,6 +120,27 @@ URLs:
 		<td>footer</td>
 		<td>#454545</td>
 		<td>69, 69, 69</td>
+	</tr>
+</table>
+<h2>Fonts</h2>
+<table class="fonts-table clearfix" id="fonts-table">
+	<tr>
+		<th>Name</th>
+		<th>Use</th>
+		<th>Size</th>
+		<th>Weight</th>
+	</tr>
+	<tr>
+		<td>unboffice_bold_macroman</td>
+		<td>logo</td>
+		<td>60px</td>
+		<td>100</td>
+	</tr>
+	<tr>
+		<td>Roboto</td>
+		<td>about text</td>
+		<td>12px</td>
+		<td>1</td>
 	</tr>
 </table>
 </html>
